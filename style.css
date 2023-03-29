@@ -28,6 +28,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 100vh;
 }
 /*Há possibilidade de agrupar os comandos acima em um comando só através do BACKGROUND*/
 
@@ -164,7 +165,16 @@ ul li a:hover {
   font-size: 14px;
  }
 
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jgg);
+  }
 
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
 
 
 
