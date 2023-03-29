@@ -29,9 +29,9 @@ body {
   background-position: top center;
   background-size: cover;
   height: 100vh;
-}
 /*Há possibilidade de agrupar os comandos acima em um comando só através do BACKGROUND*/
-
+}
+/* padronizando as fontes para o BODY */
 body * {
   font-family: 'Inter', sans-serif;
   color: var(--text-color);
